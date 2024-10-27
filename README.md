@@ -8,7 +8,6 @@ Welcome to the Pokédex project! This project is a simple web application that d
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
