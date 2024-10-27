@@ -1,6 +1,6 @@
 # Pokédex - Mapadev Week
 
-Welcome to the Pokédex project! This project is a simple web application that displays information about various Pokémon, including their types, abilities, and stats.
+Welcome to the Pokédex project! This project is a simple web application that displays information about various Pokémon, including their types, abilities, and stats. This project was inspired by the YouTube channel **DEV EM DOBRO**.
 
 ## Table of Contents
 
