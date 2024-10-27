@@ -1,0 +1,36 @@
+.listagem {
+  max-width: 200px; /* Set the maximum width for the listing */
+}
+
+.listagem .pokemon {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically within the listing */
+  justify-content: space-between; /* Space items evenly between start and end */
+  margin-bottom: 10px; /* Space below each Pokémon item */
+  background-color: #6b727a; /* Dark gray background color for Pokémon items */
+  color: #ffffff; /* White text color */
+  padding: 0 5px; /* Horizontal padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-top-left-radius: 30px; /* Rounded top-left corner */
+  border-bottom-left-radius: 30px; /* Rounded bottom-left corner */
+  min-height: 70px; /* Minimum height for each Pokémon item */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Add shadow for depth effect */
+  transition: 0.15s ease-in-out; /* Smooth transition effect for hover */
+}
+
+.listagem .pokemon:hover {
+  transform: scale(1.05); /* Slightly enlarge Pokémon item on hover */
+}
+
+.listagem .pokemon img {
+  width: 25%; /* Set image width to 25% of the parent container */
+  border-radius: 50%; /* Make the image circular */
+}
+
+.listagem .pokemon span {
+  padding-right: 20px; /* Space to the right of the Pokémon name */
+}
+
+.listagem .pokemon.ativo {
+  background-color: #fa6668; /* Highlight color for the active Pokémon */
+}

@@ -1,0 +1,101 @@
+.cartao-pokemon {
+  display: none; /* Hide Pokémon cards by default */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /* Add shadow effects */
+  border-radius: 10px; /* Round corners */
+}
+
+.cartao-pokemon .cartao-topo {
+  padding: 30px 40px 0; /* Top padding for the card header */
+}
+
+.cartao-pokemon .nome {
+  margin-bottom: 5px; /* Space below the Pokémon name */
+}
+
+.cartao-pokemon .tipo {
+  font-size: 12px; /* Font size for the Pokémon type */
+  background-color: #ffffff; /* Background color */
+  opacity: 0.7; /* Transparency */
+  border-radius: 15px; /* Round corners */
+  padding: 2px 10px; /* Padding around the type label */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /* Shadow effects */
+}
+
+.cartao-pokemon .detalhes {
+  color: #ffffff; /* Text color for details */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out elements */
+  align-items: center; /* Center items vertically */
+}
+
+.cartao-pokemon .cartao-imagem {
+  width: 350px; /* Fixed width for the Pokémon image */
+  height: 350px; /* Fixed height for the Pokémon image */
+}
+
+.cartao-pokemon img {
+  max-height: 100%; /* Scale image to fit within container */
+}
+
+.cartao-pokemon .cartao-informacoes {
+  display: flex; /* Use flexbox for the information section */
+  justify-content: space-between; /* Space out sections */
+  background-color: #ffffff; /* Background color for information section */
+  padding: 80px 30px 50px; /* Padding around the information */
+  margin-top: -70px; /* Adjust positioning relative to the card */
+  border-bottom-left-radius: 8px; /* Round bottom-left corner */
+  border-bottom-right-radius: 8px; /* Round bottom-right corner */
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+  font-size: 20px; /* Font size for section headers */
+  margin-bottom: 15px; /* Space below the section header */
+  border-bottom: 1px solid #6b727a; /* Bottom border for header */
+}
+
+.cartao-pokemon .cartao-informacoes .status,
+.cartao-pokemon .cartao-informacoes .habilidades {
+  padding: 0 10px; /* Padding on sides */
+  width: 180px; /* Fixed width for each section */
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li,
+.cartao-pokemon .cartao-informacoes .status ul li {
+  border-bottom: 1px solid #c3c4c5; /* Bottom border for list items */
+  padding: 0 0 5px; /* Padding at the bottom */
+  margin-bottom: 5px; /* Space between list items */
+  font-size: 15px; /* Font size for list items */
+}
+
+.cartao-pokemon.aberto {
+  display: block; /* Show the opened Pokémon card */
+}
+
+/* Background colors for different Pokémon types */
+.tipo-fogo {
+  background-color: #ed8a8b; /* Fire type color */
+}
+
+.tipo-eletrico {
+  background-color: #fcc719; /* Electric type color */
+}
+
+.tipo-agua {
+  background-color: #76befe; /* Water type color */
+}
+
+.tipo-grama {
+  background-color: #49d0b0; /* Grass type color */
+}
+
+.tipo-trevas {
+  background-color: #ba69c8; /* Dark type color */
+}
+
+.tipo-dragao {
+  background-color: #c29791; /* Dragon type color */
+}

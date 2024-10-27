@@ -1,0 +1,9 @@
+* {
+  padding: 0; /* Remove default padding from all elements */
+  margin: 0; /* Remove default margin from all elements */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+ul {
+  list-style-type: none; /* Remove default bullet points from unordered lists */
+}
